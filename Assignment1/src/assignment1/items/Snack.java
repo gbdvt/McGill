@@ -22,8 +22,8 @@ public class Snack extends StoreItem {
 	}*/
 	
 	public boolean isExpired() {
-		if (MyDate == this.expirationDate) {
-			
+		if (MyDate >= this.expirationDate) {
+			return True;
 		}
 	}
 	
